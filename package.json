@@ -1,19 +1,17 @@
 {
   "name": "employee-tracker",
   "version": "1.0.0",
-  "description": "employee tracker",
-  "main": "index.js",
+  "description": "A CLI app to view and manage employees, roles and departments",
+  "main": "app.js",
   "scripts": {
-    "test": "add employee"
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dbreznay/Employee-Tracker.git"
+  
   },
-  "keywords": [
-    "employee",
-    "tracker"
-  ],
   "author": "dylan breznay",
   "license": "MIT",
   "bugs": {

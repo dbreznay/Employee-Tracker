@@ -24,9 +24,9 @@ USE `Employee_Tracker` ;
 DROP TABLE IF EXISTS `Employee_Tracker`.`department` ;
 
 CREATE TABLE IF NOT EXISTS `Employee_Tracker`.`department` (
-  `id` INT NOT NULL AUTO_INCREMENT,
+  `department_id` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(30) NULL,
-  PRIMARY KEY (`id`))
+  PRIMARY KEY (`department_id`))
 ENGINE = InnoDB;
 
 
@@ -36,11 +36,11 @@ ENGINE = InnoDB;
 DROP TABLE IF EXISTS `Employee_Tracker`.`role` ;
 
 CREATE TABLE IF NOT EXISTS `Employee_Tracker`.`role` (
-  `id` INT NOT NULL AUTO_INCREMENT,
+  `role_id` INT NOT NULL AUTO_INCREMENT,
   `title` VARCHAR(30) NULL,
   `salary` VARCHAR(45) NULL,
   `department_id` INT NULL,
-  PRIMARY KEY (`id`))
+  PRIMARY KEY (`role_id`))
 ENGINE = InnoDB;
 
 
@@ -50,12 +50,12 @@ ENGINE = InnoDB;
 DROP TABLE IF EXISTS `Employee_Tracker`.`employee` ;
 
 CREATE TABLE IF NOT EXISTS `Employee_Tracker`.`employee` (
-  `id` INT NOT NULL AUTO_INCREMENT,
+  `employee_id` INT NOT NULL AUTO_INCREMENT,
   `first_name` VARCHAR(30) NULL,
   `last_name` VARCHAR(30) NULL,
   `role_id` VARCHAR(30) NULL,
   `manager_id` INT NULL,
-  PRIMARY KEY (`id`))
+  PRIMARY KEY (`employee_id`))
 ENGINE = InnoDB;
 
 
