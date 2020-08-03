@@ -1,0 +1,28 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "employee tracker",
+  "main": "index.js",
+  "scripts": {
+    "test": "add employee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbreznay/Employee-Tracker.git"
+  },
+  "keywords": [
+    "employee",
+    "tracker"
+  ],
+  "author": "dylan breznay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dbreznay/Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/dbreznay/Employee-Tracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^7.3.3",
+    "mysql": "^2.18.1"
+  }
+}
