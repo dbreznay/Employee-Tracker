@@ -6,7 +6,6 @@ const fName = "employee.first_name";
 const lName = "employee.last_name";
 const dept =  "department.department";
 const title = "role.title";
-const salary = "role.salary";
 const manager = "employee.manager_id"
 const roleId = "employee.role_id";
 const deptId = "role.department_id";
@@ -18,8 +17,8 @@ var connection = mysql.createConnection({
   host: "localhost",
   port: 3306,
   user: "root",
-  password: "",
-  database: "",
+  password: "8fczzzzz",
+  database: "Local instance 3306",
   multipleStatements: true
 });
 
@@ -203,7 +202,7 @@ function viewByDept() {
 };
 
 function viewRoles() {
-  var query = `SELECT ${title}, ${salary}, ${dept} FROM role LEFT JOIN `
+  var query = `SELECT ${title},${dept} FROM role LEFT JOIN `
   query += `department ON (${deptId} = department.id) ORDER BY ${salary} DESC;`
   connection.query(query, (err, res) => {
     if (err) throw err;
