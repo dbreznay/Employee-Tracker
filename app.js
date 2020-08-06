@@ -11,13 +11,16 @@ var conn = mysql.createConnection({
   host: "localhost",
   port: 3306,
   user: "root",
-  password: "",
-  database: "cms"
+  password: "8fczzzzz",
+  database: "employee_db"
 });
 
 //Connection to database
 conn.connect(function (err) {
   if (err) throw err;
+  clearConsoleAndScrollbackBuffer();
+  showApHeader();
+ beginSearch();
 });
 
 function showApHeader () {
@@ -92,7 +95,7 @@ function beginSearch() {
       //closes the application
       case "Exit Application":
         console.log("Thank you.  Please come again.");
-        process.exit(1);        
+        connection.end();        
       }
 
     });
@@ -235,4 +238,3 @@ function updateRole(){
 
 clearConsoleAndScrollbackBuffer();
 showApHeader();
-beginSearch();

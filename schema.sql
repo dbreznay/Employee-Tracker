@@ -1,7 +1,7 @@
-DROP DATABASE IF EXISTS cms;
-CREATE database cms;
+DROP DATABASE IF EXISTS employee_db;
+CREATE database employee_db;
 
-USE cms;
+USE employee_db;
 
 CREATE TABLE department (
 	id INT AUTO_INCREMENT PRIMARY KEY,
@@ -21,6 +21,6 @@ CREATE TABLE employee (
     first_name VARCHAR(30),
     last_name VARCHAR(30),
     role_id INT, 
-    manager_id INT DEFAULT NULL,
-    FOREIGN KEY(role_id) REFERENCES role(id)
+    manager_id INT DEFAULT NULL
+    
 );
