@@ -30,7 +30,7 @@ How do I deliver this? Here are some guidelines:
 
 ## A Glance At This Application 
 
-(https://github.com/dbreznay/Employee-Tracker/files/5039155/emptrackdemo.gif.zip)
+![EMPTRACDEMO](https://user-images.githubusercontent.com/60904436/89605691-c9469800-d833-11ea-8dd3-3560f7151bcb.gif)
 
 
 
