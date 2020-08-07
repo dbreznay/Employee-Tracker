@@ -30,6 +30,10 @@ How do I deliver this? Here are some guidelines:
 
 ## A Glance At This Application 
 
+(https://github.com/dbreznay/Employee-Tracker/files/5039155/emptrackdemo.gif.zip)
+
+
+
 
 
 ## Minimum Requirements
