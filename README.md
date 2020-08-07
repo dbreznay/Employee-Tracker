@@ -48,7 +48,11 @@ How do I deliver this? Here are some guidelines:
   * Update employee roles
 
 
-  
+## GitHub Link 
+https://github.com/dbreznay/Employee-Tracker
+
+## Application Demo 
+(https://drive.google.com/file/d/1nGsb1l6Iw9bq1PGPvhwtAeOiuc3EGhFu/preview) 
 
 
 
